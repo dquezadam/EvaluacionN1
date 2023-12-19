@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.header, .footer {
+    width: 100%;
+    background-color: #a2ded0;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.perfil-section {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+.perfil-imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nombre {
+    color: #3498db;
+    font-size: 24px;
+}
+
+.habilidades li, .contacto li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.descripcion, .habilidades {
+    color: #555;
+    margin: 10px 0;
+}
+
+.contacto a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #3498db;
+}
